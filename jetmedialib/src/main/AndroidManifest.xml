@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jetmedialib" >
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+<application>
+    <activity
+        android:name="com.jetmedialib.picker.image.ImageActivity"
+        android:theme="@style/Theme.AppCompat.Translucent" />
+    <activity
+        android:name="com.jetmedialib.picker.video.VideoActivity"
+        android:theme="@style/Theme.AppCompat.Translucent" />
+
+
+</application>
+
+</manifest>
