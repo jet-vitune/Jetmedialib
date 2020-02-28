@@ -15,6 +15,7 @@ public class VideoPicker {
     public static final int VIDEO_PICKER_REQUEST_CODE = 53213;
     public static final String EXTRA_VIDEO_PATH = "EXTRA_VIDEO_PATH";
     public static final String EXTRA_VIDEO_MAX_TIME = "EXTRA_VIDEO_MAX_TIME";
+    public static final String FOR_STORY = "FOR_STORY";
 
     private final VideoConfig imageConfig;
 
